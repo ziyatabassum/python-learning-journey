@@ -2,6 +2,8 @@
 think of it as a labeled box that we can put something in, change it or use it later.
 The variables in Python have names called identifiers, can store data of any type '''
 
+# Indentation in Python is important & the general standard is 4 spaces perindentation level.
+
 name = "Tabassum Zia Prova" 
 age = 23 
 PI = 3.14 
@@ -20,3 +22,14 @@ print("Her name is {name} and she is {age} years old. Her interest is in {Intere
 print("Her name is {name} and she is {age} years old. Her interest is in {Interest_in} and the value of PI is {PI}".format_map(vars()))
 print("Her name is {name} and she is {age} years old. Her interest is in {Interest_in} and the value of PI is {PI}".format_map(locals()))
 print("Her name is {name} and she is {age} years old. Her interest is in {Interest_in} and the value of PI is {PI}".format_map(globals()))
+
+
+''' Variable Naming(identifier) Rules
+1. Name must start with a letter (a–z, A–Z) or underscore .
+2. Can contain letters, numbers, or underscores after the first character.
+3. Cannot use Python keywords (like , , ) as variable names. 
+Keywords are reserved words in Python & their meaning to the language is pre-defined. Examples - , , , , , , etc.
+4. 1. Python is dynamically typed. So when creating variables we don’t 
+need to declare type explicitly.
+2. Python is a case-sensitive i.e. variable & are different.'''
+
